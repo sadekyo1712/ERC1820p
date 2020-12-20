@@ -1,4 +1,4 @@
-pragma solidity ^0.5.17;
+pragma solidity ^0.5.6;
 
 
 contract LegacyNoCB {} // solium-disable-line no-empty-blocks

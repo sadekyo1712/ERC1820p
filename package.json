@@ -37,7 +37,7 @@
     "reverseENS",
     "ethereum"
   ],
-  "author": "Jordi Baylina, Jacques Dafflon",
+  "author": "Jordi Baylina, Jacques Dafflon, Hung Bui",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/0xjac/ERC1820/issues"

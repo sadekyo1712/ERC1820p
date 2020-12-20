@@ -1,4 +1,4 @@
-pragma solidity ^0.5.17;
+pragma solidity ^0.5.6;
 
 
 contract ERC1820ImplementerInterface {

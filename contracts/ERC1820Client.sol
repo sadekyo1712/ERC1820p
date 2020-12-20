@@ -1,4 +1,4 @@
-pragma solidity ^0.5.17;
+pragma solidity ^0.5.6;
 
 
 contract ERC1820Registry {
@@ -11,7 +11,7 @@ contract ERC1820Registry {
 
 /// Base client to interact with the registry.
 contract ERC1820Client {
-    ERC1820Registry constant ERC1820REGISTRY = ERC1820Registry(0x1820D439E9cd08c54A455184186401dE5f9241ee);
+    ERC1820Registry constant ERC1820REGISTRY = ERC1820Registry(0x182001C278a115ABF0BE82A010318ed0a30Be2F9);
 
     function setInterfaceImplementation(string memory _interfaceLabel, address _implementation) internal {
         bytes32 interfaceHash = keccak256(abi.encodePacked(_interfaceLabel));
